@@ -33,6 +33,16 @@ module.exports = {
               linkImagesToOriginal: false,
             },
           },
+          {
+            resolve: "gatsby-remark-prismjs",
+            options: {
+              aliases: {
+                sh: "bash",
+                js: "javascript",
+              },
+              showLineNumbers: true,
+            },
+          },
         ],
       },
     },
